@@ -2,7 +2,7 @@
 
 This project calculates the n-th term of a geometric progression.
 
-# Description
+## Description
 
 A geometric progression is a sequence of numbers:
 
@@ -14,7 +14,7 @@ The formula for the n-th term is:
 
 bₙ = b₁ · q^(n − 1)
 
-# Input
+## Input
 
 The program receives three integers, each on a separate line:
 
@@ -22,12 +22,12 @@ The program receives three integers, each on a separate line:
 - `q` — the common ratio  
 - `n` — the term index to compute  
 
-# Output
+## Output
 
 The program outputs the n-th term of the geometric progression.
 
 
-# Implementation (Python)
+## Implementation (Python)
 
 ```python
 b = int(input())
