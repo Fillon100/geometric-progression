@@ -26,13 +26,3 @@ The program receives three integers, each on a separate line:
 
 The program outputs the n-th term of the geometric progression.
 
-
-## Implementation (Python)
-
-```python
-b = int(input())
-q = int(input())
-n = int(input())
-
-s = n - 1
-print(b * q ** s)
